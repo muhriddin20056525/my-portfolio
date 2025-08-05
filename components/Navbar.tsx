@@ -21,22 +21,22 @@ function Navbar() {
 
         <ul className={`header-links ${mobile && "show"}`}>
           <li>
-            <a href="#" className="header-link">
+            <a href="#home" className="header-link">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="header-link">
+            <a href="#skills" className="header-link">
               Skills
             </a>
           </li>
           <li>
-            <a href="#" className="header-link">
+            <Link href="#projects" className="header-link">
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="header-link">
+            <a href="#contact" className="header-link">
               Contact
             </a>
           </li>
