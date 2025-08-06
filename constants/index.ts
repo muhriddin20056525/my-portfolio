@@ -115,4 +115,72 @@ export const projectsData = [
     youtube: "link",
     skills: ["html", "css", "javascript"],
   },
+
+  {
+    id: 5,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 6,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+];
+
+export const bestProjects = [
+  {
+    id: 1,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 2,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 3,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 4,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
 ];
