@@ -126,13 +126,14 @@ section {
   justify-content: center;
 }
 
-.hero-btns button {
+.hero-btns a {
   padding: 1.2rem 3rem;
   border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s;
-  cursor: pointer;
+  display: block;
+  font-size: 1.6rem;
 }
 
 .btn-primary {
@@ -160,6 +161,10 @@ section {
   margin-top: 10rem;
 }
 
+.hero-bottom .section-title {
+  margin-bottom: 2rem;
+}
+
 .hero-carousel-item {
   background-color: #fff;
   border-radius: 12px;
@@ -167,7 +172,7 @@ section {
   width: 100%;
   border-top: 6px solid;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-top-color: #007acc; /* blue */
+  border-top-color: #007acc;
 }
 
 .hero-carousel-item h3 {
@@ -284,6 +289,38 @@ section {
   background-color: var(--bg);
 }
 
+.projects .section-title {
+  margin-bottom: 2rem;
+}
+
+.projects-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.projects-category li {
+  padding: 0.8rem 2rem;
+  background-color: var(--primary);
+  color: var(--card-bg);
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.projects-category li:hover {
+  transform: translateY(-6px);
+}
+
+.projects-carousel {
+  padding: 3rem 0 !important;
+}
+
 .project-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -292,19 +329,17 @@ section {
 }
 
 .project-item {
-  background-color: var(--card-bg);
   border-radius: 1.2rem;
   padding: 2.4rem 2.8rem;
   width: 100%;
   max-width: 60rem;
   box-shadow: var(--shadow);
   border-top: 6px solid;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .project-item:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
 .project-item .dot {
@@ -459,11 +494,6 @@ section {
 /* ================================ RESPONSIVE ================================ */
 @media (max-width: 992px) {
   /* ================================ PROJECTS ================================ */
-
-  .project-list {
-    grid-template-columns: 1fr;
-  }
-
   .project-item {
     max-width: 100%;
   }
@@ -500,6 +530,12 @@ section {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
   }
+
+  /* ================================ PROJECTS ================================ */
+
+  .project-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 576px) {
@@ -508,4 +544,6 @@ section {
   .hero-btns {
     flex-direction: column;
   }
+
+  /* ================================ PROJECTS ================================ */
 }

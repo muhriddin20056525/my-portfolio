@@ -137,6 +137,80 @@ export const projectsData = [
     youtube: "link",
     skills: ["html", "css", "javascript"],
   },
+  {
+    id: 7,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 8,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 9,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 10,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 11,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+
+  {
+    id: 12,
+    title: "Blog App",
+    description:
+      "Full-stack blog platform with auth, post creation, comments, and likes.",
+    github: "link",
+    google: "link",
+    youtube: "link",
+    skills: ["html", "css", "javascript"],
+  },
+];
+
+export const projectCategoriesData = [
+  { id: 1, title: "UI" },
+  { id: 2, title: "JavaScript" },
+  { id: 3, title: "React.JS" },
+  { id: 4, title: "Redux Toolkit" },
+  { id: 5, title: "Next.JS" },
+  { id: 6, title: "MERN Stack" },
 ];
 
 export const bestProjects = [

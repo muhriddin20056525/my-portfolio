@@ -23,8 +23,12 @@ function HeroSection() {
         </p>
 
         <div className="hero-btns">
-          <button className="btn-primary">View My Work</button>
-          <button className="btn-outline">Contact Me</button>
+          <a href="#projects" className="btn-primary">
+            View My Work
+          </a>
+          <a href="#contact" className="btn-outline">
+            Contact Me
+          </a>
         </div>
 
         <div className="hero-bottom">

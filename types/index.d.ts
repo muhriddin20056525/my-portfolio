@@ -13,3 +13,8 @@ export interface IProjects {
   youtube: string;
   skills: string[];
 }
+
+export interface IProjectCategories {
+  id: number;
+  title: string;
+}
